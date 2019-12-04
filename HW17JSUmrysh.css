@@ -1,0 +1,167 @@
+body{
+    background-color: #252029;
+    font-family: 'Bungee Inline', cursive;
+    color: #9393c8;
+}
+button{
+    font-family: 'Bungee Inline', cursive;
+    background-color: #ffffff00;
+    border: 1px solid #525299;
+    border-radius: 4px;
+    color: #9393c8;
+    font-size: 7px;
+}
+.clock, .seconds, .timer{
+    height: 210px;
+    border-bottom: 3px solid gray;
+    border-top: 3px solid gray;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #2e3e5a;
+}
+.clock, .seconds, .timer{
+    position: relative;
+}
+.date{
+    position: absolute;
+    height: 20px;
+    width: 150px;
+    top: 15px;
+    left: 470px;
+    font-size: 21px;
+}
+.time{
+    position: absolute;
+    height: 60px;
+    width: 250px;
+    top: 60px;
+    left: 424px;
+    font-size: 50px;
+}
+
+.num1{
+    position: absolute;
+    left: 120px;
+    top: 30px;
+    color: #9393c8;
+    background-color: #ffffff00;
+    font-family: 'Bungee Inline', cursive;
+    border: none;
+    height: 62px;
+    width: 100px;
+    font-size: 55px;
+}
+.timer>p{
+    position: absolute;
+    left: 112px;
+    top: 60px;
+}
+.plus{
+    position: absolute;
+    top: 122px;
+    left: 126px;
+    height: 22px;
+    width: 22px;
+    font-size: 8px;
+}
+.minus{
+    position: absolute;
+    top: 122px;
+    left: 162px;
+    height: 22px;
+    width: 22px;
+    font-size: 8px;
+}
+.timerStart{
+    position: absolute;
+    left: 544px;
+    top: 144px;
+    height: 25px;
+    width: 50px;
+    font-size: 9px;
+}
+.timerReset{
+    position: absolute;
+    left: 660px;
+    top: 144px;
+    height: 25px;
+    width: 50px;
+    font-size: 9px;
+}
+.timerStop{
+    position: absolute;
+    left: 602px;
+    top: 144px;
+    height: 25px;
+    width: 50px;
+    font-size: 9px;
+}
+#showTime{
+    position: absolute;
+    left: 528px;
+    top: 0px;
+    color: #9393c8;
+    background-color: #ffffff00;
+    font-family: 'Bungee Inline', cursive;
+    /* border: none; */
+    height: 62px;
+    width: 100px;
+    font-size: 64px;
+}
+.seconds{
+    position: relative;
+}
+#sec{
+    position: absolute;
+    font-size: 50px;
+    left: 70px;
+}
+.start{
+    position: absolute;
+    height: 25px;
+    width: 50px;
+    font-size: 9px;
+    top: 120px;
+    left: 80px;
+}
+.stop{
+    position: absolute;
+    height: 25px;
+    width: 50px;
+    font-size: 9px;
+    top: 120px;
+    left: 200px;
+}
+.loop{
+    position: absolute;
+    height: 25px;
+    width: 50px;
+    font-size: 9px;
+    top: 120px;
+    left: 140px;
+}
+.reset{
+    position: absolute;
+    height: 25px;
+    width: 50px;
+    font-size: 9px;
+    top: 120px;
+    left: 260px;
+}
+#boxLoop{
+    position: absolute;
+    height: 80%;
+    width: 266px;
+    border: 2px solid rgb(10, 3, 36);
+    left: 600px;
+    top: 20px;
+    background-color: #363678;
+    overflow:auto
+}
+#boxLoop>p{
+    margin: 0;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Bungee Inline', cursive;
+    color: #9393c8;
+}
